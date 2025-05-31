@@ -16,6 +16,16 @@ A Spring Boot and React-based GenAI application powered by Ollama LLM, featuring
 The two modules need to be run separately.
 
 ## spring-ai-backend
+
+-------------------------------------------------------------------------------------------
+### Prerequisites
+- Make sure you have Ollama installed locally. You can download it from https://ollama.com.
+- Ensure the llama3:3b model is pulled and running. If not, run the following command:
+```bash
+  ollama run llama3.2:3b
+```
+-------------------------------------------------------------------------------------------
+
 1. Go inside the spring-ai-backend module and download all the dependencies. 
 ```bash
   ./gradlew clean build
